@@ -1,0 +1,17 @@
+
+
+const ONLY_VOWEL_WORD_SUFFIX = 'yay'
+const WORD_SUFFIX = 'ay'
+const VALID_VOWEL_REGEX = /[aeiouy]/
+const WORD_SEPARATORS_REGEX = /[\s?!.,\"\"\(\)\-]+/
+const DEFAULT_INPUT_FILE_PATH = './input'
+const DEFAULT_OUTPUT_FILE_PATH = './output'
+
+export {
+    ONLY_VOWEL_WORD_SUFFIX,
+    WORD_SUFFIX,
+    VALID_VOWEL_REGEX,
+    WORD_SEPARATORS_REGEX,
+    DEFAULT_INPUT_FILE_PATH,
+    DEFAULT_OUTPUT_FILE_PATH
+}
